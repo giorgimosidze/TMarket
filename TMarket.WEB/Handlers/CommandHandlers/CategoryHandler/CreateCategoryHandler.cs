@@ -23,6 +23,9 @@ namespace TMarket.WEB.Handlers.CommandHandlers.CategoryHandler
         {
             var user = await _categoryService.InsertAsync(_mapper.Map<CategoryDTO>(request));
 
+
+
+
             return _mapper.Map<CategoryRespond>(user);
         }
     }
