@@ -25,7 +25,7 @@ namespace TMarket.WEB.Handlers.CommandHandlers.CategoryHandler
 
 
 
-
+              
             return _mapper.Map<CategoryRespond>(user);
         }
     }
